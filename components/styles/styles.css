@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background-color: #0f4d1e;
+}
+
+.navbar a {
+    color: white;
+}
+
+.custom-sidebar {
+    background-color: #000; /* Change to your desired background color */
+    color: #fff; /* Text color */
+}
+
+.custom-sidebar .nav-item {
+    border-bottom: 1px solid #555; /* Horizontal line color */
+}
+
+.custom-sidebar .nav-link {
+    padding: 10px 15px; /* Adjust spacing as needed */
+}
+
+/* Active item style */
+.custom-sidebar .nav-item.active {
+    background-color: #555; /* Background color for the active item */
+}
+.container-card {
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.content {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style for the carousel */
+.carousel-item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 505px; 
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); 
+    color: white;
+}
+
+/* Center the carousel text content vertically */
+.carousel-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+footer {
+    text-align: center;
+    background-color: #0f4d1e; 
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
