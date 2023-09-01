@@ -1,6 +1,6 @@
 # Fitness Club Management System
 
-![Project Logo](insert_logo_url_here.png)
+![Project Logo](components/images/logo.png)
 
 ## Table of Contents
 
